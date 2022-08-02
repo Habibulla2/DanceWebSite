@@ -1,0 +1,59 @@
+//- index.pug
+doctype html
+html
+  head
+    title Jenny Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/logo.png")
+                | JDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            Li #[a(href="/") Contact Us]
+
+    section#introSection
+        div Welcome to Jenny's dance academy 
+        div.small Eat Dance Sleep repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+            h3 Dance perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/1.png")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem qui, dolor atque soluta sed veniam quam
+        div.card 
+            h3 Dance the way you like
+            div.card-box 
+                div.card-img 
+                    img(src="/static/2.png")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem qui, dolor atque soluta sed veniam quam
+        div.card 
+            h3 Expert teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/3.png")
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem qui, dolor atque soluta sed veniam quam
+
+    section#sponsorsSection
+        h2 Our Sponsors 
+        div#sponsors 
+            img(src="/static/ap1.png", alt="apple img" Class="spImage")
+            img(src="/static/ford.png", alt="apple img" Class="spImage")
+            img(src="/static/mic.png", alt="apple img" Class="spImage")
+            img(src="/static/sky.png", alt="apple img" Class="spImage")
+
+    footer#footer 
+        | Copyright © 2022 Jenny'sDanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js

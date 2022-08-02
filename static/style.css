@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 15px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 45px;
+    filter: invert(1);
+}
+#navbar{
+    background-color: navy;
+    padding: 17px 2px;
+    font-family: 'PT Sans', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 27px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introSection{
+    padding-bottom: 52px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background: center / cover no-repeat url("/static/bgp.jpg");
+    height: 420px;
+    background-color: aqua;
+}
+#introSection div.small{
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(240, 35, 69);
+}
+
+#missionSection{
+    height: 320px;
+    width: 69%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+#missionSection h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    height: 220px;
+    margin: 20px 22px;
+    background-color: rgba(184, 247, 243, 0.986);
+}
+.card h3{
+    margin: 16px 12px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.card-img {
+    height: 120px;
+    padding-left: 16px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 18px ;
+}
+
+#sponsorsSection{
+    height: 280px;
+    background-color: rgba(71, 110, 240, 0.897);
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#sponsors{
+    height: 135px;
+    max-width: 1070px;
+    margin: auto;
+}
+.spImage{
+    height: 80%;
+    margin: 23px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
